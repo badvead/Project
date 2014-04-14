@@ -1,0 +1,143 @@
+body{
+	/*background-color: #272833;*/
+	background-image: url('../img/bkg.png');
+	background-size: cover;
+	/*background-image: url('../img/stripes.png');*/
+	font-family: 'Raleway', sans-serif !important; 
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+#login-square{
+	position: absolute;
+	height: 600px;
+	width: 750px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	margin: auto;
+	background-color: rgba(255,255,255,0.1);
+	overflow: hidden;
+	-webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:    0px 2px 8px rgba(0, 0, 0, 0.5);
+	box-shadow:         0px 2px 8px rgba(0, 0, 0, 0.5);
+	border-radius: 7px;
+	cursor: pointer;
+	color: #FFF;
+}
+
+.l-block{
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+}
+
+#login-block{
+	float: right;
+	padding: 20px;
+}
+
+#img-block{
+	float: left;
+	background-image: url('../img/line.jpg');
+	background-position: center center;
+	background-size: cover;
+}
+
+#logo_img{
+	position: absolute;
+	height: 300px;
+	width: 240px;
+	top: 0;
+	bottom: 0;
+	right: 375px;
+	left: 0;
+	margin: auto;
+}
+
+.login-form{
+	height: 50px;
+	width: 100%;
+	border-radius: 30px;
+	border: 1px solid #e9e9e9;
+	padding-left: 15px;
+	font-size: 20px;
+	line-height: 51px;
+}
+
+#login_align{
+	position: relative;
+	top: 130px;
+}
+
+#register-align{
+	position: relative;
+	top: 40px;
+}
+
+.button{
+	width: 100%;
+	height: 50px;
+	border-radius: 30px;
+	border:none;
+	font-size: 20px;
+	font-weight: 500;
+	color: #FFF;
+	background-color: #20E5DA; 
+	border-bottom: 4px solid #198680;
+	transition: all .1s;
+	text-align: center;
+	line-height: 47px;
+}
+
+.button:hover{
+	transition: all .1s;
+	background-color: #39EEE4;
+}
+
+.button:active{
+	transition: all .1s;
+	border-bottom: 3px solid #198680;
+	border-top: 1px solid #3ffcef;
+}
+
+*:focus {
+    outline: 0;
+}
+
+#login-nav{
+	width: 167.5px;
+	height: auto;
+	display: block;
+	float: left;
+	color: #EEEEEE;
+	border-top: 4px solid #EEEEEE;
+	font-size: 30px;
+	font-weight: 800;
+}
+
+#register-nav{
+	width: 167.5px;
+	height: auto;
+	display: block;
+	float: right;
+	border-top: 4px solid #9CE8E8;
+	font-size: 30px;
+	text-align: right;
+	color: #9CE8E8;
+	font-weight: 800;
+}
+
+#divCheckPasswordMatch{
+	width: 18px;
+	height: 18px;
+	position: relative;
+	top: -43px;
+	left: 305px;
+	margin-bottom: -28px;
+}

@@ -1,0 +1,11 @@
+$_SESSION['link_id'] = $row['link_id'];
+$_SESSION['rating'] = $row['rating'];
+$_SESSION['num_users'] = $row['num_users'];
+$_SESSION['customer_id'] = $row['customer_id'];
+$_SESSION['branding_url'] = $row['branding_url'];
+$_SESSION['organization'] = $row['organization'];
+$_SESSION['connection_id'] = $row['connection_id'];
+$_SESSION['subscription_plan'] = $row['subscription_plan'];
+$_SESSION['address'] = $row['address'];
+$_SESSION['coordinates'] = $row['coordinates'];
+$_SESSION['question_array'] = $row['question_array'];
